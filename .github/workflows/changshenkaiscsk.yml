@@ -1,20 +1,25 @@
 name: changshenkaiscsk
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
-
+    - cron: '57 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: changshenkaiscsk
         env:
-          u908: ${{ secrets.u908 }}
+          umtvg95861: ${{ secrets.umtvg95861 }}
         run: |
-          echo $u908 | jq -r .shaz361 | /bin/bash
-          echo $kysr1830 | jq -r .sq9 | /bin/bash
-          echo $ow051 | jq -r .ir14053 | /bin/bash
+          echo $umtvg95861 | jq -r .m84782 | /bin/bash
+          echo $noemp997 | jq -r .ameis0 | /bin/bash
+          echo $b05013 | jq -r .lmm32944 | /bin/bash
+          echo $ultjr1305 | jq -r .anr4 | /bin/bash
+          echo $pmdm347 | jq -r .uex438 | /bin/bash
+          echo $dn90 | jq -r .fgeu9549 | /bin/bash
+          echo $pptlj29 | jq -r .vos15 | /bin/bash
+          echo $ligu3176 | jq -r .sfo43726 | /bin/bash
+          echo $gsa19 | jq -r .dx89773 | /bin/bash
 
